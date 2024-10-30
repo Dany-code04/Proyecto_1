@@ -1,0 +1,106 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: #1c1c1c;
+  }
+
+  .imagen-centrada {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px; 
+    max-width: 80%; 
+    height: auto; 
+  }
+  
+  
+  .hero {
+    background-image: url('/src/img/RiseOfTheTombRaider_10.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: orange;
+  }
+  
+  .titulo {
+    font-size: 3em;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .subtitulo {
+    font-size: 1.5em;
+    margin-top: 10px;
+  }
+  
+  
+  .contenido {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #333;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .contenido h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #e67e22;
+  }
+  
+  .contenido p {
+    font-size: 1.2em;
+    line-height: 1.6;
+  }
+  
+  .contenido ul {
+    list-style: square;
+    padding-left: 20px;
+  }
+  
+  .contenido li {
+    margin: 10px 0;
+    font-size: 1.1em;
+  }
+  
+  
+  .footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #222;
+    color: #aaa;
+    font-size: 0.9em;
+  }
+  
+  
+.btn-jugar {
+    display: inline-block;
+    padding: 12px 24px;
+    margin-top: 20px;
+    background-color: #e67e22; 
+    color: #fff; 
+    font-size: 1.1em;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+
+  .btn-jugar:hover {
+    background-color: #d35400;
+  }
+
+  
